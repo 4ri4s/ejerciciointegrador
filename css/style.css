@@ -1,0 +1,55 @@
+.image-overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(0, 0, 0, 0.5);
+}
+.card:hover .image-overlay {
+       opacity: 1;
+  }
+.card-img-top {
+    height: 100%;
+    object-fit:cover;
+}
+.card-img-overlay> .card-text{
+    font-size: 18px;
+}
+.card-img-overlay> .card-title{
+    font-size: 30px;
+}
+.btn-outline-secondary{
+    color: whitesmoke;
+    border-color: whitesmoke;
+}
+.oradores{
+    text-align: center;
+    padding: 10px;
+}
+.honolulu{
+    display: flex;
+}
+.img-honolulu{
+    width: 50%;
+}
+.txt-honolulu{
+    color: whitesmoke;
+    width: 50%;
+    padding: 10px;
+    background-color: rgb(65, 65, 65);
+}
+.btn-success-submit{
+    width: 100%;
+    background-color: #81c53d ;
+    color: whitesmoke;
+}
+.btn-success-submit:hover{
+    width: 100%;
+    background-color: #609130 ;
+    color: whitesmoke;
+}
